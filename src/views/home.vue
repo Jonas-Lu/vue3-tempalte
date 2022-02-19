@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { defineProps } from 'vue'
 
 defineProps<{ msg: string }>()
-
-const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-  <h1>home.vue</h1>
+  <div>
+    <h1>{{ msg }}</h1>
+    <h1>home.vue</h1>
+  </div>
 </template>
 
 <style scoped></style>

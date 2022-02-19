@@ -1,6 +1,7 @@
 <template>
-  <h1>{{ msg }}</h1>
-  <h1>axios.vue</h1>
+  <div>
+    <h1>axios.vue</h1>
+  </div>
 </template>
 
 <script lang="ts">
